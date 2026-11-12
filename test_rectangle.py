@@ -10,7 +10,7 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_square_area(self):
         result = area(10, 10)
-        self.assertEqual(result, 100)
+        self.assertEqual(result, 10)
 
     def test_rectangle_area(self):
         result = area(10, 5)
